@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js'></script>
+    <!--<script src='skrypt2_bledy.js'></script>-->
+    <title>Zgadywanie</title>
+</head>
+
+<body>
+    <div class='styl1' id='main'>
+        W tej grze możesz popełnić maksymalnie 9 błędów!
+        <p id='bledy' class='bad'>Narazie popełniono 0 błędów.</p>
+        <p id='wynik' class='good'>Hasło:</p>
+        Już wykorzystano następujące litery/cyfry: <p id='used'></p>
+        <input type='button' value="Zrestartuj grę" onclick="restart()" class='guzik2'>
+    </div>
+    <div class='left'>
+        <img src='wisielec1.png' id='zdjecie'>
+    </div>
+    <div class='right' id='right'>
+        Podaj litere lub cyfre:<br>
+        <input type="text" id='litera' pattern="[A-Za-z]{1}" class='wpro'>
+        <input type='button' value='Sprawdź' onclick="gra()" class='guzik'>
+        <p id='info'></p>
+    </div>
+</body>
+
+</html>
