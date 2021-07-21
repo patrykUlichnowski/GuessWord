@@ -20,7 +20,7 @@ function gra() {
     var litera = pobierz.toUpperCase();
     //
     var info = document.getElementById('info'); //zwracane po kazdym wcisnieciu guzika
-    var obrazy = new Array('wisielec1.png', 'wisielec2.png', 'wisielec3.png', 'wisielec4.png', 'wisielec5.png', 'wisielec6.png', 'wisielec7.png', 'wisielec8.png', 'wisielec9.png', 'wisielec10.png');
+    var obrazy = new Array('img/wisielec1.png', 'img/wisielec2.png', 'img/wisielec3.png', 'img/wisielec4.png', 'img/wisielec5.png', 'img/wisielec6.png', 'img/wisielec7.png', 'img/wisielec8.png', 'img/wisielec9.png', 'img/wisielec10.png');
     var warunek = false;
     var plansza = document.getElementById('zdjecie');
     if (!litera || litera.length > 1) {      //warunek sprawdzajacy podanie litery
